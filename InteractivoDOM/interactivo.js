@@ -1,19 +1,4 @@
 
-const titulo = document.getElementById("titulo");
-titulo.textContent = "Proyecto 2.0";
-
-const lista = document.querySelector("#proyectos");
-const boton = document.querySelector("#agregar");
-
-document.querySelector("#agregar").addEventListener("click", () => {
-    const card = document.createElement("article");
-    card.textContent = "Proyecto de portafolio";
-    lista.append(card);
-})
-
-document.querySelector("#")
-
-
 const titulo = document.querySelector("#titulo");
 titulo.textContent = "Mis Proyectos";
 
