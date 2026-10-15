@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Palenight(Mild Contrast)",
+    "editor.fontSize": 22,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "breadcrumbs.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.linkedEditing": true,
+    "window.openFilesInNewWindow": "on"
+} 

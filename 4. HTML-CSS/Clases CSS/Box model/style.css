@@ -1,0 +1,35 @@
+#titulo{
+    background: red;
+    width:100%;
+    height: 100px;
+}
+
+h1{
+    background-color: lightcoral;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.formulario{
+    background: grey;
+    padding: 10px 0 10px 20px;
+    border-radius: 10px;
+}
+.formulario_input{
+    padding: 5px;
+    width: 50%;
+    background-color: lightgray;
+    margin: 5px;
+    color: black;
+}
+
+.formulario_submit{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: black;
+    width: 20%;
+    color: white;
+    font-weight: bold;
+}

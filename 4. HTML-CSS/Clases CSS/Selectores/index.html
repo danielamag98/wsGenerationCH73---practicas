@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONECTAR CON CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    
+<body>
+    <h1>RECETA PASTEL DE CHOCOLATE</h1>
+    <h2>Ingredientes:</h2>
+    <p>
+        <ul>
+            <li>Una taza de <span>Harina</span></li>
+            <li>Aceite</li>
+            <li>Leche</li>
+            <li id="proteina">Huevos</li>
+            <li><span>Mantequilla</span></li>
+            <li class="faltante">Sal</li>
+            <li class="faltante">Azucar</li>
+            <li>Chocolate amargo</li>
+        </ul>
+    </p>
+    <h2>Procedimiento:</h2>
+    <p>
+        El modelo de caja (controlando la visualizacion de la caja) --> <span>DISPLAY: INLINE</span> DISPLAY: BLOCK, DISPLAY:INLINE-BLOCK
+        los elementos inline: pueden comenzar en cualquier lugar de una linea existente. las propiedades de altura y ancho no tienen efecto.
+        elemento block comeinza en una nueva linea y ocupa todo el ancho de la caja. puede contener otros leementos de tipo block o inline
+        inline-block, es un elemento que se muestra en linea pero se puede definir su altura y ancho
+    </p>
+    <div>
+        <p>
+            las posiciones de las cajas permiten diseños unicos para los sitios web
+        <span>Valores utilizados:</span>
+        static position(por defecto)
+        relative position: cuando desea que los elemntos mostrados en la pagina tengan un desplazamiento que puede ser:
+        lados superior, dercho, inferior o izquierdo
+        z-index: es un metodo para determinar cual caja es mas importante para mostrar cuando se superponen con otras cajas
+        solo se pone z-index: y el numero de la cc aja de index
+        absolute position: es similar a relativo excepto que se basa en el primer elemento ancestro que no es estatico.
+        util para tomar decisiones de estilo.
+        es como el boton de whats o el chatbot en algun web, se pone casi siempre abajo --> bottom y dimensiones 20 px ejemplo
+        fixed position: es como absolute, pero su posicion ser relativa al despalzameinto del navegador
+        significa que cuando tiene una caja fija (fixed) y desplaza hacia abajo, solo se desplaza con el usuario
+        sticky position: posicionara los elementos de manera relativa hasta que se produzca un desplazamiento basadao en el desplazamiento de la pagina.
+        es ocmo si fuera relativo hasta que desplace abajo o hacia rriba lo sufiente para se vuelva fijo y luego regresa a a ser relativo cuando vuelve su posicion... o sea si el navegador baja, este no baja con el
+        </p>
+    </div>
+</body>
+</html>

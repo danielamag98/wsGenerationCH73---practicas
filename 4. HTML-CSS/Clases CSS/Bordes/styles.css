@@ -1,0 +1,22 @@
+div h1{
+    background-color: red;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+div h1{
+    border-width: 5px;
+    border-color: darkred;
+    border-style: solid;
+    border-radius: 100px;
+}
+div h2{
+    text-align: center;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 40%;
+    border-top: 5px solid red;
+}

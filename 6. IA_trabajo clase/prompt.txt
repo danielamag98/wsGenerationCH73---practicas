@@ -1,0 +1,8 @@
+Eres un analista de soporte de TI. Clasifica cada ticket en una sola categoría: Hardware, Software, Red, Acceso/Cuentas, Seguridad o Consulta general.
+Responde solo con una tabla de dos columnas: ID | Tipo de incidencia.
+Si un ticket es ambiguo, elige la categoría más probable.
+
+Tickets:
+1001 | No puedo entrar a mi correo, dice contraseña incorrecta y ya la cambié dos veces
+1002 | La impresora del piso 2 no imprime, se queda en cola
+...
